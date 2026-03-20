@@ -1,0 +1,36 @@
+{
+  "name": "@aiagentkarl/agent-policy-gateway-mcp",
+  "version": "0.1.0",
+  "description": "MCP Server for AI agent policy enforcement - PII detection, guardrails, GDPR/EU AI Act compliance, audit logging, and emergency kill switch",
+  "type": "module",
+  "bin": {
+    "policy-gateway-server": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "policy",
+    "guardrails",
+    "pii",
+    "gdpr",
+    "eu-ai-act",
+    "compliance",
+    "audit-log",
+    "kill-switch",
+    "safety"
+  ],
+  "author": "AiAgentKarl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AiAgentKarl/agent-policy-gateway-mcp-js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
